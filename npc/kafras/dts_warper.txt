@@ -9,7 +9,7 @@
 //= This file is part of Hercules.
 //= http://herc.ws - http://github.com/HerculesWS/Hercules
 //=
-//= Copyright (C) 2012-2025 Hercules Dev Team
+//= Copyright (C) 2012-2024 Hercules Dev Team
 //= Copyright (C) Euphy
 //= Copyright (C) L0ne_W0lf
 //= Copyright (C) Lupus
@@ -684,7 +684,7 @@ yuno,162,191,4	script	Kafra Voting Staff#yuno	4_F_KAFRA9,{
 prontera,164,125,4	script	Kafra Voting Staff#prt	4_F_KAFRA2,{
 	callfunc "F_VoteKafra",2;
 }
-moc_ruins,97,133,4	script	Kafra Voting Staff#moc	4_F_KAFRA2,{
+morocc,164,114,4	script	Kafra Voting Staff#moc	4_F_KAFRA2,{
 	callfunc "F_VoteKafra",2;
 }
 geffen,122,37,4	script	Kafra Voting Staff#gef	4_F_KAFRA2,{
@@ -1097,7 +1097,7 @@ lighthalzen,163,60,4	script	Kafra Voting Staff#lght	4_F_KAFRA9,{
 
 yuno,153,191,6	duplicate(VotingStaffCCE)	Cool Event Staff#yuno	4_M_ZONDAMAN
 prontera,147,125,6	duplicate(VotingStaffCCE)	Cool Event Staff#prt	4_M_ZONDAMAN
-moc_ruins,104,133,6	duplicate(VotingStaffCCE)	Cool Event Staff#moc	4_M_ZONDAMAN
+morocc,155,114,6	duplicate(VotingStaffCCE)	Cool Event Staff#moc	4_M_ZONDAMAN
 geffen,117,37,6	duplicate(VotingStaffCCE)	Cool Event Staff#gef	4_M_ZONDAMAN
 payon,153,182,6	duplicate(VotingStaffCCE)	Cool Event Staff#pay	4_M_ZONDAMAN
 alberta,114,70,6	duplicate(VotingStaffCCE)	Cool Event Staff#alb	4_M_ZONDAMAN
