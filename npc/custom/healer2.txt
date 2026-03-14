@@ -1,0 +1,67 @@
+//===== Hercules Script ======================================
+//= Healer
+//===== By: ==================================================
+//= Euphy
+//===== Current Version: =====================================
+//= 1.2
+//===== Description: =========================================
+//= Basic healer script.
+//===== Additional Comments: =================================
+//= 1.0 Initial script.
+//= 1.1 Aligned coordinates with @go.
+//= 1.2 Fix variables and character stuck at healing
+//============================================================
+
+-	script	Healer	FAKE_NPC,{
+
+	.@price = 0;	// Zeny required for heal
+	.@Buffs = 1;	// Also buff players? (1: yes / 0: no)
+	.@Delay = 0;	// Heal delay, in seconds
+
+	if (@HD > gettimetick(GETTIMETICK_UNIXTIME)) {
+		end;
+	}
+	if (.@price) {
+		message strcharinfo(PC_NAME),"Healing costs "+.@price+" Zeny.";
+		if (Zeny < .@price) end;
+		if(select("^0055FFHeal^000000", "^777777Cancel^000000") == 2) close;
+		Zeny -= .@price;
+	}
+	if (.@Buffs) {
+		specialeffect(EF_INCAGILITY, AREA, playerattached()); sc_start SC_INC_AGI,240000,10;
+		specialeffect(EF_BLESSING, AREA, playerattached()); sc_start SC_BLESSING,240000,10;
+	}
+	specialeffect(EF_HEAL2, AREA, playerattached()); percentheal 100,100;
+	if (.@Delay) {
+		@HD = gettimetick(GETTIMETICK_UNIXTIME) + .@Delay;
+	}
+	end;
+}
+
+
+// Duplicates
+//============================================================
+prontera,150,184,4	duplicate(Healer)	Healer#prt	4_PORING
+morocc,153,97,6	duplicate(Healer)	Healer#mor	4_PORING
+geffen,127,63,6	duplicate(Healer)	Healer#gef	4_PORING
+payon,166,103,4	duplicate(Healer)	Healer#pay	4_PORING
+alberta,26,240,6	duplicate(Healer)	Healer#alb	4_PORING
+izlude,123,119,5	duplicate(Healer)	Healer#izl	4_PORING
+aldebaran,135,119,6	duplicate(Healer)	Healer#alde	4_PORING
+xmas,143,133,4	duplicate(Healer)	Healer#xmas	4_PORING
+comodo,192,157,6	duplicate(Healer)	Healer#com	4_PORING
+yuno,161,124,4	duplicate(Healer)	Healer#yuno	4_PORING
+amatsu,120,155,4	duplicate(Healer)	Healer#ama	4_PORING
+gonryun,162,127,6	duplicate(Healer)	Healer#gon	4_PORING
+umbala,122,152,3	duplicate(Healer)	Healer#umb	4_PORING
+niflheim,205,180,5	duplicate(Healer)	Healer#nif	4_PORING
+louyang,223,101,4	duplicate(Healer)	Healer#lou	4_PORING
+jawaii,233,201,4	duplicate(Healer)	Healer#jaw	4_PORING
+ayothaya,213,196,6	duplicate(Healer)	Healer#ayo	4_PORING
+einbroch,59,199,6	duplicate(Healer)	Healer#einbr	4_PORING
+lighthalzen,154,96,6	duplicate(Healer)	Healer#lhz	4_PORING
+einbech,163,134,6	duplicate(Healer)	Healer#einbe	4_PORING
+hugel,89,150,6	duplicate(Healer)	Healer#hug	4_PORING
+rachel,113,141,6	duplicate(Healer)	Healer#rac	4_PORING
+veins,212,133,4	duplicate(Healer)	Healer#ve	4_PORING
+moscovia,226,191,4	duplicate(Healer)	Healer#mos	4_PORING
