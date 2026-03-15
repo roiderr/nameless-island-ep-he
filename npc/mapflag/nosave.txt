@@ -9,7 +9,7 @@
 //= This file is part of Hercules.
 //= http://herc.ws - http://github.com/HerculesWS/Hercules
 //=
-//= Copyright (C) 2012-2025 Hercules Dev Team
+//= Copyright (C) 2012-2024 Hercules Dev Team
 //= Copyright (C) rAthena Dev Team
 //= Copyright (C) eAthena Dev Team
 //= Copyright (C) Lupus
@@ -56,8 +56,6 @@ job_sage	mapflag	nosave	SavePoint
 // Ext
 job_star	mapflag	nosave	SavePoint
 job_soul	mapflag	nosave	SavePoint
-job3_sha01	mapflag	nosave	SavePoint
-job_ko	mapflag	nosave	SavePoint
 // 3-1
 job3_arch01	mapflag	nosave	SavePoint
 job3_arch02	mapflag	nosave	SavePoint
@@ -72,8 +70,6 @@ job3_rune02	mapflag	nosave	SavePoint
 job3_rune03	mapflag	nosave	SavePoint
 job3_war01	mapflag	nosave	SavePoint
 job3_war02	mapflag	nosave	SavePoint
-// 3-2
-job3_gen01	mapflag	nosave	SavePoint
 
 // Special Quests Places =====
 ama_test	mapflag	nosave	SavePoint
@@ -243,14 +239,6 @@ gld_dun01	mapflag	nosave	SavePoint
 gld_dun02	mapflag	nosave	SavePoint
 gld_dun03	mapflag	nosave	SavePoint
 gld_dun04	mapflag	nosave	SavePoint
-gld_dun01_2	mapflag	nosave	SavePoint
-gld_dun02_2	mapflag	nosave	SavePoint
-gld_dun03_2	mapflag	nosave	SavePoint
-gld_dun04_2	mapflag	nosave	SavePoint
-gld2_ald	mapflag	nosave	SavePoint
-gld2_gef	mapflag	nosave	SavePoint
-gld2_pay	mapflag	nosave	SavePoint
-gld2_prt	mapflag	nosave	SavePoint
 
 //Normal Maps =================================
 yggdrasil01	mapflag	nosave	SavePoint
@@ -301,9 +289,6 @@ schg_que01	mapflag	nosave	SavePoint
 schg_dun01	mapflag	nosave	SavePoint
 arug_que01	mapflag	nosave	SavePoint
 arug_dun01	mapflag	nosave	SavePoint
-
-// Somatology Laboratory ===========
-que_lhz	mapflag	nosave	SavePoint
 
 //evt_zombie	mapflag	nosave	SavePoint
 
