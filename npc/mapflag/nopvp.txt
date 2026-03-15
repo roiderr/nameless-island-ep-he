@@ -9,7 +9,7 @@
 //= This file is part of Hercules.
 //= http://herc.ws - http://github.com/HerculesWS/Hercules
 //=
-//= Copyright (C) 2012-2025 Hercules Dev Team
+//= Copyright (C) 2012-2024 Hercules Dev Team
 //= Copyright (C) rAthena Dev Team
 //=
 //= Hercules is free software: you can redistribute it and/or modify
@@ -147,31 +147,5 @@ moc_para01	mapflag	pvp	off
 
 brasilis	mapflag	pvp	off
 bra_in01	mapflag	pvp	off
-
-dicastes01	mapflag	pvp	off
-dicastes02	mapflag	pvp	off
-dic_in01	mapflag	pvp	off
-
-s_atelier	mapflag	pvp	off
-
-mora	mapflag	pvp	off
-
-dewata	mapflag	pvp	off
-dew_in01	mapflag	pvp	off
-
-malangdo	mapflag	pvp	off
-mal_in01	mapflag	pvp	off
-mal_in02	mapflag	pvp	off
-
-malaya	mapflag	pvp	off
-ma_scene01	mapflag	pvp	off
-ma_in01	mapflag	pvp	off
-
-eclage	mapflag	pvp	off
-ecl_in01	mapflag	pvp	off
-ecl_in02	mapflag	pvp	off
-ecl_in03	mapflag	pvp	off
-ecl_in04	mapflag	pvp	off
-ecl_hub01	mapflag	pvp	off
 
 //evt_zombie	mapflag	pvp	off
