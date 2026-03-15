@@ -9,7 +9,7 @@
 //= This file is part of Hercules.
 //= http://herc.ws - http://github.com/HerculesWS/Hercules
 //=
-//= Copyright (C) 2012-2025 Hercules Dev Team
+//= Copyright (C) 2012-2024 Hercules Dev Team
 //= Copyright (C) Euphy
 //= Copyright (C) Kisuka
 //= Copyright (C) Samuray22
@@ -77,7 +77,6 @@ payon_in01,132,62,5	script	Inn Employee#Ahee	1_M_INNKEEPER,{
 
 //== Morroc ================================================
 //- North East -
-/*
 morocc_in,147,141,3	script	Inn Employee#Hasna	1_M_INNKEEPER,{
 
 	callfunc "F_InnMaid","[Employee Hasna]","Morroc Inn","morocc_in",142,140;
@@ -90,7 +89,6 @@ morocc_in,80,100,5	script	Inn Employee#Manar	1_M_INNKEEPER,{
 	callfunc "F_InnMaid","[Employee Manar]","Morroc Inn","morocc_in",78,95;
 	warp "morocc_in",79,123; end;
 }
-*/
 
 //== Aldebaran =============================================
 aldeba_in,92,58,5	script	Inn Maid#Rilim	1_M_INNKEEPER,{
