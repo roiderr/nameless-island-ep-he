@@ -9,7 +9,7 @@
 //= This file is part of Hercules.
 //= http://herc.ws - http://github.com/HerculesWS/Hercules
 //=
-//= Copyright (C) 2012-2025 Hercules Dev Team
+//= Copyright (C) 2012-2024 Hercules Dev Team
 //= Copyright (C) Euphy
 //= Copyright (C) Masao
 //= Copyright (C) L0ne_W0lf
@@ -548,7 +548,6 @@ niflheim,200,191,5	script	Bulletin Board#25	2_BULLETIN_BOARD,{
 	close;
 }
 
-/*
 moc_fild15,267,264,5	script	Bulletin Board#26	2_BULLETIN_BOARD,{
 	mes "[Ant Hell]";
 	mes "^6B1312Caution!^000000";
@@ -563,7 +562,6 @@ moc_fild15,267,264,5	script	Bulletin Board#26	2_BULLETIN_BOARD,{
 	mes "a boss monster called ^6B1312Phreeoni^000000 will appear at certain time.";
 	close;
 }
-*/
 
 moc_ruins,61,164,5	script	Bulletin Board#27	2_BULLETIN_BOARD,{
 	mes "[Pyramids]";
