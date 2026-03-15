@@ -9,7 +9,7 @@
 //= This file is part of Hercules.
 //= http://herc.ws - http://github.com/HerculesWS/Hercules
 //=
-//= Copyright (C) 2012-2025 Hercules Dev Team
+//= Copyright (C) 2012-2024 Hercules Dev Team
 //= Copyright (C) Daegaladh
 //=
 //= Hercules is free software: you can redistribute it and/or modify
@@ -38,10 +38,6 @@ amatsu	mapflag	reset
 ayothaya	mapflag	reset
 brasilis	mapflag	reset
 comodo	mapflag	reset
-dewata	mapflag	reset
-dicastes01	mapflag	reset
-dicastes02	mapflag	reset
-eclage	mapflag	reset
 einbroch	mapflag	reset
 einbech	mapflag	reset
 geffen	mapflag	reset
@@ -51,12 +47,9 @@ jawaii	mapflag	reset
 hugel	mapflag	reset
 lighthalzen	mapflag	reset
 louyang	mapflag	reset
-malangdo	mapflag	reset
-malaya	mapflag	reset
 manuk	mapflag	reset
 mid_camp	mapflag	reset
 moc_ruins	mapflag	reset
-mora	mapflag	reset
 morocc	mapflag	reset
 moscovia	mapflag	reset
 niflheim	mapflag	reset
