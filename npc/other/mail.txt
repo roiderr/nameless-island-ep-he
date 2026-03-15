@@ -9,7 +9,7 @@
 //= This file is part of Hercules.
 //= http://herc.ws - http://github.com/HerculesWS/Hercules
 //=
-//= Copyright (C) 2012-2025 Hercules Dev Team
+//= Copyright (C) 2012-2024 Hercules Dev Team
 //= Copyright (C) Daegaladh
 //= Copyright (C) Elias
 //= Copyright (C) Zephyrus
@@ -73,8 +73,8 @@ prontera,34,212,0	duplicate(MailBox)	Mailbox#3prt	2_POSTBOX
 izlude,136,94,0	duplicate(MailBox)	Mailbox#iz	2_POSTBOX
 
 //== Morroc ================================================
-moc_ruins,72,166,0	duplicate(MailBox)	Mailbox#1moc	2_POSTBOX
-moc_ruins,156,52,0	duplicate(MailBox)	Mailbox#2moc	2_POSTBOX
+morocc,166,110,0	duplicate(MailBox)	Mailbox#1moc	2_POSTBOX
+morocc,168,262,0	duplicate(MailBox)	Mailbox#2moc	2_POSTBOX
 
 //== Geffen ================================================
 geffen,115,67,0	duplicate(MailBox)	Mailbox#gef	2_POSTBOX
