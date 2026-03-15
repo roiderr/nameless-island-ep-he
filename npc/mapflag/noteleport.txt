@@ -9,7 +9,7 @@
 //= This file is part of Hercules.
 //= http://herc.ws - http://github.com/HerculesWS/Hercules
 //=
-//= Copyright (C) 2012-2025 Hercules Dev Team
+//= Copyright (C) 2012-2024 Hercules Dev Team
 //= Copyright (C) rAthena Dev Team
 //= Copyright (C) eAthena Dev Team
 //= Copyright (C) Lupus
@@ -391,34 +391,7 @@ schg_que01	mapflag	noteleport
 arug_que01	mapflag	noteleport
 man_in01	mapflag	noteleport
 spl_in01	mapflag	noteleport
-s_atelier	mapflag	noteleport
 bra_in01	mapflag	noteleport
-dic_in01	mapflag	noteleport
-
-// Episode 14 ====================
-dew_in01	mapflag	noteleport
-mal_in01	mapflag	noteleport
-mal_in02	mapflag	noteleport
-que_lhz	mapflag	noteleport
-que_lhz	mapflag	monster_noteleport
-ma_scene01	mapflag	noteleport
-ma_in01	mapflag	noteleport
-ma_zif01	mapflag	noteleport
-ma_zif02	mapflag	noteleport
-ma_zif03	mapflag	noteleport
-ma_zif04	mapflag	noteleport
-ma_zif05	mapflag	noteleport
-ma_zif06	mapflag	noteleport
-ma_zif07	mapflag	noteleport
-ma_zif08	mapflag	noteleport
-ma_zif09	mapflag	noteleport
-ecl_in01	mapflag	noteleport
-ecl_in02	mapflag	noteleport
-ecl_in03	mapflag	noteleport
-ecl_in04	mapflag	noteleport
-ecl_hub01	mapflag	noteleport
-dali	mapflag	noteleport
-dali02	mapflag	noteleport
 
 // Yggdrasil Dungeon =============
 nyd_dun02	mapflag	noteleport
