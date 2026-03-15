@@ -9,7 +9,7 @@
 //= This file is part of Hercules.
 //= http://herc.ws - http://github.com/HerculesWS/Hercules
 //=
-//= Copyright (C) 2012-2025 Hercules Dev Team
+//= Copyright (C) 2012-2024 Hercules Dev Team
 //= Copyright (C) Skotlex
 //=
 //= Hercules is free software: you can redistribute it and/or modify
@@ -66,18 +66,18 @@ mjolnir_12	mapflag	nightenabled
 moc_fild01	mapflag	nightenabled
 moc_fild02	mapflag	nightenabled
 moc_fild03	mapflag	nightenabled
-//moc_fild04	mapflag	nightenabled
-//moc_fild05	mapflag	nightenabled
-//moc_fild06	mapflag	nightenabled
+moc_fild04	mapflag	nightenabled
+moc_fild05	mapflag	nightenabled
+moc_fild06	mapflag	nightenabled
 moc_fild07	mapflag	nightenabled
-//moc_fild08	mapflag	nightenabled
-//moc_fild09	mapflag	nightenabled
-//moc_fild10	mapflag	nightenabled
+moc_fild08	mapflag	nightenabled
+moc_fild09	mapflag	nightenabled
+moc_fild10	mapflag	nightenabled
 moc_fild11	mapflag	nightenabled
 moc_fild12	mapflag	nightenabled
 moc_fild13	mapflag	nightenabled
-//moc_fild14	mapflag	nightenabled
-//moc_fild15	mapflag	nightenabled
+moc_fild14	mapflag	nightenabled
+moc_fild15	mapflag	nightenabled
 moc_fild16	mapflag	nightenabled
 moc_fild17	mapflag	nightenabled
 moc_fild18	mapflag	nightenabled
@@ -319,24 +319,5 @@ splendide	mapflag	nightenabled
 spl_fild01	mapflag	nightenabled
 brasilis	mapflag	nightenabled
 bra_fild01	mapflag	nightenabled
-dicastes01	mapflag	nightenabled
-dicastes02	mapflag	nightenabled
-dic_fild01	mapflag	nightenabled
-dic_fild02	mapflag	nightenabled
-
-// Episode 14 ====================
-bif_fild01	mapflag	nightenabled
-bif_fild02	mapflag	nightenabled
-dewata	mapflag	nightenabled
-dew_fild01	mapflag	nightenabled
-dew_dun02	mapflag	nightenabled
-malangdo	mapflag	nightenabled
-malaya	mapflag	nightenabled
-ma_fild01	mapflag	nightenabled
-ma_fild02	mapflag	nightenabled
-ma_scene01	mapflag	nightenabled
-eclage	mapflag	nightenabled
-ecl_fild01	mapflag	nightenabled
-ecl_hub01	mapflag	nightenabled
 
 //evt_zombie	mapflag	nightenabled
