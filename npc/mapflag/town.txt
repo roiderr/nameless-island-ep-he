@@ -9,7 +9,7 @@
 //= This file is part of Hercules.
 //= http://herc.ws - http://github.com/HerculesWS/Hercules
 //=
-//= Copyright (C) 2012-2025 Hercules Dev Team
+//= Copyright (C) 2012-2024 Hercules Dev Team
 //= Copyright (C) Epoque
 //=
 //= Hercules is free software: you can redistribute it and/or modify
@@ -54,9 +54,3 @@ hugel	mapflag	town
 rachel	mapflag	town
 veins	mapflag	town
 brasilis	mapflag	town
-dicastes01	mapflag	town
-mora	mapflag	town
-dewata	mapflag	town
-malangdo	mapflag	town
-malaya	mapflag	town
-eclage	mapflag	town
