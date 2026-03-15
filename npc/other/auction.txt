@@ -9,7 +9,7 @@
 //= This file is part of Hercules.
 //= http://herc.ws - http://github.com/HerculesWS/Hercules
 //=
-//= Copyright (C) 2012-2025 Hercules Dev Team
+//= Copyright (C) 2012-2024 Hercules Dev Team
 //= Copyright (C) Kisuka
 //= Copyright (C) L0ne_W0lf
 //=
@@ -34,7 +34,7 @@
 //=========================================================================
 
 //== Auction House warpers =================================
-moc_ruins,78,173,6	script	Auction Hall Guide#moc	4W_M_02,{
+morocc,182,95,6	script	Auction Hall Guide#moc	4W_M_02,{
 	callfunc "F_AuctionWarper",1;
 }
 
@@ -94,13 +94,13 @@ function	script	F_AuctionWarper	{
 	close;
 }
 
-moc_ruins,76,176,6	duplicate(AuctionSign)	Information Post#moc	2_BULLETIN_BOARD
+morocc,180,97,6	duplicate(AuctionSign)	Information Post#moc	2_BULLETIN_BOARD
 prontera,216,120,4	duplicate(AuctionSign)	Information Post#prt	2_BULLETIN_BOARD
 yuno,131,116,0	duplicate(AuctionSign)	Information Post#yuno	2_BULLETIN_BOARD
 lighthalzen,207,169,6	duplicate(AuctionSign)	Information Post#lhz	2_BULLETIN_BOARD
 
 //== Warps =================================================
-auction_01,180,49,0	warp	auction_entrance_moc	1,1,moc_ruins,78,171
+auction_01,180,49,0	warp	auction_entrance_moc	1,1,morocc,182,92
 auction_01,22,37,0	warp	auction_entrance_prt	1,1,prontera,214,120
 auction_02,151,17,0	warp	auction_enterance_juno	1,1,yuno,132,119
 auction_02,43,17,0	warp	auction_enterance_lhz	1,1,lighthalzen,209,169
