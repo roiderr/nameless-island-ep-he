@@ -9,7 +9,7 @@
 //= This file is part of Hercules.
 //= http://herc.ws - http://github.com/HerculesWS/Hercules
 //=
-//= Copyright (C) 2012-2025 Hercules Dev Team
+//= Copyright (C) 2012-2024 Hercules Dev Team
 //= Copyright (C) Yommy
 //= Copyright (C) Streusel
 //= Copyright (C) Euphy
@@ -299,40 +299,6 @@ OnInit:
 	sellitem Silver_Robe;
 	sellitem Wooden_Mail;
 	sellitem Belt;
-}
-
-//== Brasilis ==============================================
-brasilis,252,257,3	trader	Tool Dealer#bra	4_F_BRZ_WOMAN,{
-OnInit:
-	sellitem Center_Potion;
-	sellitem Awakening_Potion;
-	sellitem Wing_Of_Fly;
-	sellitem Wing_Of_Butterfly;
-	sellitem Spectacles;
-	sellitem Booby_Trap;
-	sellitem Leaf_Of_Yggdrasil;
-}
-
-brasilis,244,243,3	trader	Weapon Dealer#bra	4_M_BRZ_MAN2,{
-OnInit:
-	sellitem Pike;
-	sellitem Partizan;
-	sellitem Hammer;
-	sellitem Chain;
-	sellitem Coward;
-}
-
-brasilis,201,309,3	trader	Pet Groomer#bra	4_M_BRZ_MAN1,{
-OnInit:
-	sellitem Pet_Food;
-	sellitem Pet_Incubator;
-}
-
-brasilis,221,128,3	trader	Fruit Gardener#bra	4_M_BRZ_MAN2,{
-OnInit:
-	sellitem Coconut;
-	sellitem Banana;
-	sellitem Asai_Fruit;
 }
 
 //== Comodo ================================================
@@ -1207,13 +1173,13 @@ OnInit:
 	sellitem Damascus;
 }
 
-//== Morroc - Post Ep. 12.1 ================================
+//== Morroc ================================
 in_moc_16,22,20,7	trader	Sepulchral Merchant#moc	4_M_MASKMAN,{
 OnInit:
 	sellitem Venom_Knife;
 }
 
-moc_ruins,93,53,2	trader	Item Collector#moc1	4_M_03,{
+morocc,170,101,2	trader	Item Collector#moc1	4_M_03,{
 OnInit:
 	sellitem Scell;
 	sellitem Monsters_Feed;
@@ -1221,7 +1187,7 @@ OnInit:
 	sellitem Bill_Of_Birds;
 }
 
-moc_ruins,81,113,0	trader	Item Collector#moc2	4_M_03,{
+morocc,206,250,0	trader	Item Collector#moc2	4_M_03,{
 OnInit:
 	sellitem Scell;
 	sellitem Monsters_Feed;
@@ -1229,7 +1195,7 @@ OnInit:
 	sellitem Bill_Of_Birds;
 }
 
-moc_ruins,110,105,2	trader	Jeweler#moc1	8_F,{
+morocc,145,44,6	trader	Jeweler#moc1	8_F,{
 OnInit:
 	sellitem Azure_Jewel;
 	sellitem Cardinal_Jewel;
@@ -1238,40 +1204,40 @@ OnInit:
 	sellitem Bluish_Green_Jewel;
 }
 
-moc_ruins,52,85,6	trader	Jeweler#moc2	4W_M_03,{
+morocc,166,51,2	trader	Jeweler#moc2	4W_M_03,{
 OnInit:
 	sellitem Crystal_Jewel;
 	sellitem Diamond_Ring;
 }
 
-moc_ruins,113,126,4	trader	Trader#moc1	4W_M_03,{
+morocc,35,69,6	trader	Trader#moc1	4W_M_03,{
 OnInit:
 	sellitem Crystal_Mirror;
 }
 
-moc_ruins,131,138,0	trader	Trader#moc2	4_F_04,{
+morocc,139,92,6	trader	Trader#moc2	4_F_04,{
 OnInit:
 	sellitem Witherless_Rose;
 }
 
-moc_ruins,71,139,5	trader	Trader#moc3	4_F_04,{
+morocc,244,134,5	trader	Trader#moc3	4_F_04,{
 OnInit:
 	sellitem Flower_Ring;
 }
 
-moc_ruins,125,135,6	trader	Trader#moc4	4_M_ORIENT02,{
+morocc,259,193,4	trader	Trader#moc4	4_M_ORIENT02,{
 OnInit:
 	sellitem Skul_Ring;
 	sellitem Sword_Mace;
 	sellitem Stunner;
 }
 
-moc_ruins,87,109,0	trader	Butcher#moc	1_M_MERCHANT,{
+morocc,157,72,6	trader	Butcher#moc	1_M_MERCHANT,{
 OnInit:
 	sellitem Meat;
 }
 
-moc_ruins,90,149,6	trader	Trader#moc5	4W_M_03,{
+morocc,268,193,0	trader	Trader#moc5	4W_M_03,{
 OnInit:
 	sellitem Banana;
 }
