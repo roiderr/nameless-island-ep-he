@@ -9,7 +9,7 @@
 //= This file is part of Hercules.
 //= http://herc.ws - http://github.com/HerculesWS/Hercules
 //=
-//= Copyright (C) 2012-2025 Hercules Dev Team
+//= Copyright (C) 2012-2024 Hercules Dev Team
 //= Copyright (C) Euphy
 //= Copyright (C) Masao
 //= Copyright (C) Xantara
@@ -1095,7 +1095,7 @@ alberta_in,31,65,4	script	Repairman#alb	4_M_04,{
 	end;
 }
 
-moc_ruins,107,94,4	script	Repairman#moc	4W_M_03,{
+morocc_in,71,41,4	script	Repairman#moc	4W_M_03,{
 	callfunc "repairmain","Repairman";
 	end;
 }
