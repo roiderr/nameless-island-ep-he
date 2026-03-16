@@ -9,7 +9,7 @@
 //= This file is part of Hercules.
 //= http://herc.ws - http://github.com/HerculesWS/Hercules
 //=
-//= Copyright (C) 2012-2025 Hercules Dev Team
+//= Copyright (C) 2012-2024 Hercules Dev Team
 //= Copyright (C) Samuray22
 //= Copyright (C) L0ne_W0lf
 //= Copyright (C) Lupus
@@ -120,6 +120,6 @@
 alberta,113,53,4	duplicate(SmileHelper)	Smile Assistance#alb	4_F_03
 aldebaran,136,135,4	duplicate(SmileHelper)	Smile Assistance#alde	4_F_03
 geffen,119,107,4	duplicate(SmileHelper)	Smile Assistance#gef	4_F_03
-moc_ruins,59,154,3	duplicate(SmileHelper)	Smile Assistance#moc	4_F_03
+morocc,158,97,4	duplicate(SmileHelper)	Smile Assistance#moc	4_F_03
 payon,186,104,5	duplicate(SmileHelper)	Smile Assistance#pay	4_F_03
 prontera,157,187,4	duplicate(SmileHelper)	Smile Assistance#prt	4_F_03
