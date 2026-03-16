@@ -9,7 +9,7 @@
 //= This file is part of Hercules.
 //= http://herc.ws - http://github.com/HerculesWS/Hercules
 //=
-//= Copyright (C) 2012-2025 Hercules Dev Team
+//= Copyright (C) 2012-2024 Hercules Dev Team
 //= Copyright (C) rAthena Dev Team
 //= Copyright (C) Euphy
 //= Copyright (C) eAthena Dev Team
@@ -40,7 +40,7 @@
 //= 1.7
 //=========================================================================
 
-moc_ruins,118,99,5	script	Roberto	4_M_ORIENT01,{
+morocc,121,109,5	script	Roberto	4_M_ORIENT01,{
 	if (BaseClass == Job_Archer) {
 		if (getskilllv("AC_MAKINGARROW") == 1) {
 			mes "[Roberto]";
