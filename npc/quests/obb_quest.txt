@@ -9,7 +9,7 @@
 //= This file is part of Hercules.
 //= http://herc.ws - http://github.com/HerculesWS/Hercules
 //=
-//= Copyright (C) 2012-2025 Hercules Dev Team
+//= Copyright (C) 2012-2024 Hercules Dev Team
 //= Copyright (C) L0ne_W0lf
 //= Copyright (C) MasterOfMuppets
 //= Copyright (C) Lupus
@@ -634,7 +634,7 @@ alberta,43,244,0	script	Tourist#thai	4W_M_03,{
 	}
 }
 
-moc_ruins,105,62,4	script	Jacob#thai	1_M_04,{
+morocc,230,150,0	script	Jacob#thai	1_M_04,{
 	if (thai_head >= 6 && thai_head <= 11) {
 		switch (thai_head) {
 		case 6:
@@ -1862,7 +1862,7 @@ comodo,68,195,0	script	Old Man#thai	2_M_PHARMACIST,{
 	}
 }
 
-moc_ruins,107,62,0	script	Tommy#thai	4_M_KID2,{
+morocc,230,148,0	script	Tommy#thai	4_M_KID2,{
 	if (thai_head >= 6 && thai_head <= 11) {
 		switch(thai_head) {
 		case 6:
