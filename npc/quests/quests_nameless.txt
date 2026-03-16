@@ -9,7 +9,7 @@
 //= This file is part of Hercules.
 //= http://herc.ws - http://github.com/HerculesWS/Hercules
 //=
-//= Copyright (C) 2012-2025 Hercules Dev Team
+//= Copyright (C) 2012-2024 Hercules Dev Team
 //= Copyright (C) Euphy
 //= Copyright (C) brianluau
 //= Copyright (C) Yommy
@@ -2260,7 +2260,7 @@ ra_temple,168,54,3	script	Sippie#ss	4_F_MASK,{
 }
 
 //== Peace to the Arunafeltz :: aruna_em ===================
-moc_ruins,77,167,4	script	Foreign Merchant#aru1	4_M_MASKMAN,5,5,{
+morocc,167,106,3	script	Foreign Merchant#aru1	4_M_MASKMAN,5,5,{
 	if (aru_vol == 27) {
 		if (aru_em == 0) {
 			emotion e_dots;
@@ -2449,7 +2449,7 @@ OnTouch:
 	end;
 }
 
-moc_ruins,86,149,0	script	#ForeignMerchant1	FAKE_NPC,3,3,{
+morocc,159,142,0	script	#ForeignMerchant1	FAKE_NPC,3,3,{
 OnTouch:
 	if (aru_em == 4) {
 		aru_em = 5;
@@ -2457,7 +2457,7 @@ OnTouch:
 	end;
 }
 
-moc_ruins,88,136,0	script	#ForeignMerchant2	FAKE_NPC,3,3,{
+morocc,147,151,0	script	#ForeignMerchant2	FAKE_NPC,3,3,{
 OnTouch:
 	if (aru_em == 1) {
 		aru_em = 2;
@@ -2474,7 +2474,7 @@ OnTouch:
 	end;
 }
 
-moc_ruins,106,133,0	script	#ForeignMerchant3	FAKE_NPC,3,3,{
+morocc,160,160,0	script	#ForeignMerchant3	FAKE_NPC,3,3,{
 OnTouch:
 	if (aru_em == 2) {
 		aru_em = 3;
@@ -2482,7 +2482,7 @@ OnTouch:
 	end;
 }
 
-moc_ruins,115,147,0	script	#ForeignMerchant4	FAKE_NPC,3,3,{
+morocc,151,5,0	script	#ForeignMerchant4	FAKE_NPC,3,3,{
 OnTouch:
 	if (aru_em == 3) {
 		aru_em = 4;
@@ -2490,7 +2490,7 @@ OnTouch:
 	end;
 }
 
-moc_ruins,101,133,7	script	Foreign Merchant#aru2	4_M_MIDDLE,{
+morocc,140,160,7	script	Foreign Merchant#aru2	4_M_MIDDLE,{
 	if ((aru_em > 1) && (aru_em < 7)) {
 		mes "["+ strcharinfo(PC_NAME) +"]";
 		mes "Excuse me, but I heard";
