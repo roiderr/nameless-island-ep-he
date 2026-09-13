@@ -460,7 +460,7 @@ ayothaya,212,169,5	script	Kafra Employee::kaf_ayothaya	4_F_KAFRA2,{
 	mes "How can I help you today?";
 	callfunc "F_Kafra",5,3,1,50,700;
 	savepoint "ayothaya",149,69;
-	callfunc "F_KafEnd",0,1,"in the city of Ayotaya";
+	callfunc "F_KafEnd",0,1,"in the city of Ayothaya";
 }
 
 //== Einbech ===============================================
@@ -652,7 +652,7 @@ moc_ruins,59,157,7	script	Kafra Employee::moc_ruins	4_F_KAFRA4,{
 	mes "what can I do for you today?";
 	callfunc "F_Kafra",5,2,1,90,1200;
 	savepoint "moc_ruins",41,141;
-	callfunc "F_KafEnd",0,1," at the Pyramids";
+	callfunc "F_KafEnd",0,1,"at the Pyramids";
 }
 
 //- Orc Dungeon -
